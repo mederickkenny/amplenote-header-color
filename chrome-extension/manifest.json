@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Amplenote Pastel Headers",
+  "version": "1.0",
+  "content_scripts": [{
+    "matches": ["https://www.amplenote.com/notes/*"],
+    "js": ["content.js"]
+  }]
+}
